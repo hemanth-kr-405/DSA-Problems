@@ -16,7 +16,7 @@ public:
         inorder(root, result);
         return result;
     }
-private:
+
     void inorder(TreeNode* node, vector<int>& result){
         if(node == nullptr) return;
 
